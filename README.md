@@ -1,5 +1,14 @@
-# SSAFY
-SSAFY 알고리즘 스터디를 위한 레포지토리
+# 정규 문제
+|  | 월 | 화 | 수 | 목 | 금 |
+| --- | :---: | :---: | :---: | :---: | :---: |
+| 1주차 | |  |  | |
+
+# 추가 문제
+
+| 문제 | 해결한 사람 | 풀이링크 |
+| :---: | :---: | :---: |
+
+# 깃허브 사용법
 
 #### 현재 branch 확인 command
 
@@ -91,7 +100,7 @@ SSAFY 알고리즘 스터디를 위한 레포지토리
 
 [![](https://github.com/Girin7716/KNU-Algorithm-Study/raw/master/img/4.png)](https://github.com/Girin7716/KNU-Algorithm-Study/blob/master/img/4.png)
 
--   master branch에 변경사항이 성공적으로 merge되었는지 확인해준다.
+-   week branch에 변경사항이 성공적으로 merge되었는지 확인해준다.
 
 [![](https://github.com/Girin7716/KNU-Algorithm-Study/raw/master/img/5.png)](https://github.com/Girin7716/KNU-Algorithm-Study/blob/master/img/5.png)
 
