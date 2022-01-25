@@ -71,11 +71,9 @@ first, second 모두 오름차순이기 때문에 문제가 없는데 하나는 
 
 bool  compare(pair<int,  int> p1,  pair<int,  int> p2)  {
 
-if  (p1.first == p2.first)
-
-return p1.second < p2.second;
-
-return p1.first < p2.first;
+  if  (p1.first == p2.first)
+    return p1.second < p2.second;
+  return p1.first < p2.first;
 
 }
 
