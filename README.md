@@ -1,7 +1,7 @@
 # 정규 문제
 |  | 월 | 화 | 수 | 목 | 금 |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| 1주차 | |  |  | |
+| 1주차 | [문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) |
 
 # 추가 문제
 
