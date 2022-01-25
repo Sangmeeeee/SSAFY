@@ -4,12 +4,6 @@
 
 using namespace std;
 
-bool compare(pair<int, int> p1, pair<int, int> p2) {
-	if (p1.first == p2.first)
-		return p1.second < p2.second;
-	return p1.first < p2.first;
-}
-
 int A[100][100];
 
 int main() {
@@ -26,7 +20,7 @@ int main() {
 	for (int i = 0; i < 3; i++)
 		for (int j = 0; j < 3; j++)
 			cin >> A[i][j];
-	
+
 	// 100번만 반복
 	for (int t = 0; t <= 100; ++t) {
 		// 맞으면 시간 출력하고 종료
@@ -42,7 +36,6 @@ int main() {
 		// 행 개수 >= 열 개수
 		if (R >= C) {
 			for (int i = 0; i < R; i++) {
-				int idx = 0;
 				int cnt[101] = { 0, };
 
 				// 등장 횟수 카운트
@@ -50,19 +43,19 @@ int main() {
 				for (int j = 0; j < C; j++)
 					if (A[i][j] != 0) {
 						cnt[A[i][j]]++;
-						max_num = A[i][j] > max_num ? A[i][j] : max_num;
 					}
 
 				// max_num까지만 cnt배열 조회
 				// {등장 횟수, 숫자}로 벡터에 넣고 정렬
-				for (int k = 1; k <= max_num; k++)
+				for (int k = 1; k <= 100; k++)
 					if (cnt[k] != 0)
 						v.push_back({ cnt[k], k });
-				sort(v.begin(), v.end(), compare);
+				sort(v.begin(), v.end());
 
 				// 벡터 크기 * 2가 100을 넘지 않도록 조정
 				q_size = v.size() * 2 >= 100 ? 100 : v.size() * 2;
 
+				int idx = 0;
 				for (int j = 0; j < q_size; j += 2) {
 					A[i][j] = v[idx].second;
 					A[i][j + 1] = v[idx++].first;
@@ -81,25 +74,22 @@ int main() {
 		}
 		// 행 개수 < 열 개수
 		else {
-			int max_cnt = 100;
-
 			for (int i = 0; i < C; i++) {
-				int idx = 0;
 				int cnt[101] = { 0, };
 
 				for (int j = 0; j < R; j++)
 					if (A[j][i] != 0) {
 						cnt[A[j][i]]++;
-						max_num = A[j][i] > max_num ? A[j][i] : max_num;
 					}
 
-				for (int k = 1; k <= max_num; k++)
+				for (int k = 1; k <= 100; k++)
 					if (cnt[k] != 0)
 						v.push_back({ cnt[k], k });
-				sort(v.begin(), v.end(), compare);
+				sort(v.begin(), v.end());
 
 				q_size = v.size() * 2 >= 100 ? 100 : v.size() * 2;
 
+				int idx = 0;
 				for (int j = 0; j < q_size; j += 2) {
 					A[j][i] = v[idx].second;
 					A[j + 1][i] = v[idx++].first;
