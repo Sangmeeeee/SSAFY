@@ -24,3 +24,19 @@ R 연산과 C 연산은 인덱스 참조만 다를뿐 둘 다 다음과 같은 �
 6. 연산이 끝난 후 전체 최대 행/열 길이를 해당 연산 내의 최대 행/열 길이로 갱신한다.
 
 # 2. 새로 배운 내용
+
+**2개의 기준으로 정렬해야 할 때 custom compare 함수 작성하는 법**
+
+이번 문제의 경우 등장 횟수가 1순위, 크기가 2순위로 정렬되어야 한다.
+
+pair에 저장된 데이터 중에서 first는 배열에 저장된 수이고 second는 등장 횟수로, `i.second`와 `j.second`가 같은 경우 `i.first < j.first`에 대한 boolean 값을 return 하면 문제에서 원하는대로 정렬이 된다.
+
+```cpp
+bool compare(pair<int, int> i, pair<int, int> j) {
+	if (i.second == j.second)
+		return i.first < j.first;
+	return i.second < j.second;
+}
+```
+
+만약 내림차순으로 정렬하고 싶다면 비교 연산자의 방향을 바꾸면 된다.
