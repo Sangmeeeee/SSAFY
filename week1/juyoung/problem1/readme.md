@@ -2,7 +2,7 @@
 
 문제 : [문자열 폭발](https://www.acmicpc.net/problem/9935)
 
-알고리즘 종류 : 문자열
+알고리즘 종류 : 문자열, 스택
 
 참조 url :
 
