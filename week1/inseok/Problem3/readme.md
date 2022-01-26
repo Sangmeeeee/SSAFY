@@ -20,7 +20,7 @@ int[] m 은 어느 페어리스트를 없앨지 판단 하는 플래그 변수�
 
 1에서 2^pairList.size -1 만큼 돌면서 비트마스킹? 처럼 해서 페어리스트를 없앨 부분을 판단 했다. 이후 line을 돌면서 ma 에 플래그가 서지 않은 부분을 StringBuilder를 통해 모두 append하였다.
 
-이를  List<String>answerList 에 하나씩 add 하여 String으로된 arrayList를 만들었고, 이를 사전적 으로 정렬 하기 위해  Collection.sort()를 통해 소팅을 했다.
+이를  List answerList 에 하나씩 add 하여 String으로된 arrayList를 만들었고, 이를 사전적 으로 정렬 하기 위해  Collection.sort()를 통해 소팅을 했다.
 
 아까 말했듯이 중복된 경우를 삭제 해 주기 위해 한번 더 for문을 돌며 같은 string을 삭제해주었다.
 
