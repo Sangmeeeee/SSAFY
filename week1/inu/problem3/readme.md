@@ -40,14 +40,14 @@ set container
 - iterator로 순차적으로 접근해서 출력할 수 있다.
 ```c++
 set<T> iterator iter;
-for(iter = s.begin(); iter != s.end(); iter++){
-    cout << * iter << endl;
+for(iter = s.begin(); iter != s.end(); iter++) {
+	cout << * iter << endl;
 }
 ```
 이게 귀찮으면 auto를 쓰면 된다.
 ```c++
 set<T> s;
 for (auto i : s)
-		cout << i << '\n';
+	cout << i << '\n';
 }
 ```
