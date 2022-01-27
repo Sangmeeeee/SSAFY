@@ -28,7 +28,7 @@ int main() {
 		diff.push_back(sensor[i + 1] - sensor[i]);
 
 	// 센서 간의 거리 오름차순으로 정렬
-	// 정렬한 벡터의 제일 뒤에서 (기지국의 수-1)만큼은 빼고 전부 더한 것이 답
+	// 정렬한 벡터의 제일 뒤에서 (집중국의 수-1)만큼은 빼고 전부 더한 것이 답
 	sort(diff.begin(), diff.end());
 	for (int i = 0; i < (int)diff.size() - K + 1; i++)
 		answer += diff[i];
