@@ -8,6 +8,8 @@
 
 # 알고리즘 설명
 
+![problem4_solution](https://user-images.githubusercontent.com/77979505/151369042-581c18d5-a1d6-4807-9b11-6ba3ab7d28de.jpg)
+
 1. 집중국을 k만큼 세워서 집중국 범위에 있는 센서들간의 간격의 합을 최소화시켜야 하는 문제이다. </br>
 2. 입력받은 센서들의 좌표 값이 저장된 배열 sensor를 sorted()로 오름차순 정렬을 해준다. </br>
 3. 배열 sensor를 인덱스 1 to len(sensor)까지 탐색하면서 sensor[i]-sensor[i-1] 값을 배열 interval에 저장해준다.</br>
