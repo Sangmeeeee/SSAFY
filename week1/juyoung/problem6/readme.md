@@ -45,7 +45,7 @@ regex 인스턴스를 생성하여 생성자에 검사할 형식을 인수로 �
     cin >> s;
     
     if (regex_match(s, re)) cout << "YES\n";
-    else					cout << "NO\n";
+    else cout << "NO\n";
     ```
     
 - 정규식 형식
