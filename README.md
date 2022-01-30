@@ -1,12 +1,17 @@
 # 정규 문제
 |  | 월 | 화 | 수 | 목 | 금 |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| 1주차 | [문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) |
+| 1주차 | [문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | 
 
 # 추가 문제
 
-| 문제 | 해결한 사람 | 풀이링크 |
-| :---: | :---: | :---: |
+| 문제 | 풀이링크 |
+| :---: | :---: |
+| [Contact](https://www.acmicpc.net/problem/1013) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem6) , [김주영](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/juyoung/problem6)|
+| [문자열 생성](https://www.acmicpc.net/problem/6137) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem7) |
+| [회의실 배정](https://www.acmicpc.net/problem/1931) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem8) |
+| [선 긋기](https://www.acmicpc.net/problem/2170) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem9) |
+| [강의실 배정](https://www.acmicpc.net/problem/11000) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem10) |
 
 # 깃허브 사용법
 
