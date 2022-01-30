@@ -66,6 +66,7 @@ class Solution {
         return answer;
     }
 }
+
 //O(n^2)
 //week1 problem 4
 //https://programmers.co.kr/learn/courses/30/lessons/76502?language=java
