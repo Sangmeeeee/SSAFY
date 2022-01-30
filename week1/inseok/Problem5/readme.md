@@ -28,7 +28,7 @@ check함수 실행 후, 문자열을 다 보았기에 회전한 문자열을 봐
 
 ## String vs. StringBuilder 의 차이 [참조]([https://ifuwanna.tistory.com/221](https://ifuwanna.tistory.com/221))
 
-![Untitled](https://github.com/Sangmeeeee/SSAFY/issues/8#issue-1118418529)
+![Untitled]("https://user-images.githubusercontent.com/49578522/151687844-a77bc0e9-f5bf-44c9-a359-a122dcb8b984.png")
 
 String은 Immutable, 나머지는 Mutable이다. 
 
