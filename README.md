@@ -9,10 +9,12 @@
 | 문제 | 풀이링크 |
 | :---: | :---: |
 | [Contact](https://www.acmicpc.net/problem/1013) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem6) , [김주영](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/juyoung/problem6)|
-| [문자열 생성](https://www.acmicpc.net/problem/6137) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem7) |
-| [회의실 배정](https://www.acmicpc.net/problem/1931) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem8) |
-| [선 긋기](https://www.acmicpc.net/problem/2170) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem9) |
+| [문자열 생성](https://www.acmicpc.net/problem/6137) | [류인석](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/inseok/extra/Problem7) , [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem7) |
+| [회의실 배정](https://www.acmicpc.net/problem/1931) | [류인석](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/inseok/extra/Problem8) , [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem8) |
+| [선 긋기](https://www.acmicpc.net/problem/2170) | [류인석](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/inseok/extra/Problem9) , [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem9) |
 | [강의실 배정](https://www.acmicpc.net/problem/11000) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem10) |
+| [후위 표기식](https://www.acmicpc.net/problem/1918) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week2/sangmin/extra/problem6) |
+| [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week2/sangmin/extra/problem7) |
 
 # 깃허브 사용법
 
