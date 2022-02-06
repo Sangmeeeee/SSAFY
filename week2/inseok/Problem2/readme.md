@@ -67,10 +67,11 @@ Queue 인터페이스 참조변수 q를 생성 하여 클래스를 컨트롤 할
     1. 정답은 다형성이다.(그 다형성이 첨에 직관적으로 이해가 안되어서 그런거지..)
     2. 아래 사진은 java.util 의 인터페이스(하늘색) 와 클래스(파랑)의 관계를 볼수 있다. 인터페이스를 배울때 “기능 구현의 강제” 라는 것을 배웠다. 이렇게  LinkedList는 deque,List 등을 implement받고 있는데 여기서 deque가 queue를 상속받아 만들어진 녀석이라 메서드를 모두 오버라이딩 하고 있더라!
         
-        ![Collection interface class 관계도.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d45d0c7f-14e0-4637-b23f-cc3cd98f1432/Collection_interface_class_관계도.png)
+       ![Collection interface class 관계도](https://user-images.githubusercontent.com/49578522/152666652-208660f3-f522-4ca2-b913-ee6b48b91372.png)
+
         
         참조 : [https://www.falkhausen.de/Java-8/java.util/Collection-Hierarchy.html](https://www.falkhausen.de/Java-8/java.util/Collection-Hierarchy.html)
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/367faeb4-d52d-4bda-a900-7502de601a94/Untitled.png)
+       ![LinkedList](https://user-images.githubusercontent.com/49578522/152666671-c7833eaf-4928-4bdf-9f8d-a6decce9811f.png)
         
     3. 이렇게 인터페이스들도 서로 상속을 하고, 클래스도 클래스끼리 상속을 하다가 필요한 기능만큼을 땡겨와서 쓰더라.
