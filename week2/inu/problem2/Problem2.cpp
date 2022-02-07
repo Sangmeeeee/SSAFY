@@ -16,7 +16,7 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
     answer = 1;
 
     while (q.size() != 0) {
-        // æ’¿∏∑Œ ¿Ãµø
+        // ÏïûÏúºÎ°ú Ïù¥Îèô
         int front = q.front(), back = q.back();
         for (int i = front; i <= back; i++)
             pos[i]++;
@@ -27,8 +27,8 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
         }
 
         back++;
-        // ¥Ÿ∏Æ ¿ß∑Œ ∆Æ∑∞ ¿Ãµø
-        if (q.size() < bridge_length &&
+        // Îã§Î¶¨ ÏúÑÎ°ú Ìä∏Îü≠ Ïù¥Îèô
+        if (back < truck_weights.size() && q.size() < bridge_length &&
             weight_sum + truck_weights[back] <= weight) {
             q.push(back);
             weight_sum += truck_weights[back];
