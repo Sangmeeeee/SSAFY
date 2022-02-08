@@ -11,18 +11,18 @@ int main() {
 	int T, K, c;
 	cin >> T;
 	for (int i = 0; i < T; i++) {
-		int sum = 0;
-		priority_queue<int, vector<int>, greater<>> pq;
-		
+		long long sum = 0;
+		priority_queue<long long, vector<long long>, greater<>> pq;
+
 		cin >> K;
 		for (int i = 0; i < K; i++) {
 			cin >> c;
 			pq.push(c);
 		}
 
-		while (pq.size() > 1) {
-			int a = pq.top(); pq.pop();
-			int b = pq.top(); pq.pop();
+		for (int i = 0; i < K - 1; i++) {
+			long long a = pq.top(); pq.pop();
+			long long b = pq.top(); pq.pop();
 			sum += a + b;
 			pq.push(a + b);
 		}
