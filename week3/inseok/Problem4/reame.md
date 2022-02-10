@@ -46,3 +46,5 @@ public class Main {
 StringBuilder는 생성할때 StringBuilder sb = new StringBuilder(); 했는데, 저건 생성자가 아님을 나아중에 알았다. 메모리 측면으로는 StringBuilder를 가리키는 참조변수를 100개 만들어준것.(StringBuidler a; StringBuilder b; StringBuilder c; 와 마찬가지이다.)
 
  얘네들을 객체를 통해서 일일이 생성을 해주어야한다.
+ ![arrConstructor](https://user-images.githubusercontent.com/49578522/153406616-bf1d3cbd-5c76-4c7c-bd25-2099820a0696.jpg)
+ 요론 느낌이지 않을까 싶다.(보신분들중에 다르다고 생각하시면 언제든지 태클..해주세요 그럼 수정하겠습니다.)
