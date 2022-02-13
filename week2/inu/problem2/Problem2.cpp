@@ -28,8 +28,7 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
 
         back++;
         // 다리 위로 트럭 이동
-        if (back < truck_weights.size() && q.size() < bridge_length &&
-            weight_sum + truck_weights[back] <= weight) {
+        if (back < truck_weights.size() && weight_sum + truck_weights[back] <= weight) {
             q.push(back);
             weight_sum += truck_weights[back];
             pos[back]++;
