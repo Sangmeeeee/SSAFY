@@ -3,6 +3,7 @@
 | --- | :---: | :---: | :---: | :---: | :---: |
 | 1주차 | [문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) |
 | 2주차 | 축 | 설 | 날 | [연산자 끼워넣기(3)](https://www.acmicpc.net/problem/15659) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |
+| 3주차 | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [파일 합치기(3)](https://www.acmicpc.net/problem/13975) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [문자열 잘라내기](https://www.acmicpc.net/problem/2866) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) |
 
 # 추가 문제
 
@@ -15,6 +16,7 @@
 | [강의실 배정](https://www.acmicpc.net/problem/11000) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem10) |
 | [후위 표기식](https://www.acmicpc.net/problem/1918) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week2/sangmin/extra/problem6) |
 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week2/sangmin/extra/problem7) |
+| [제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week3/sangmin/extra/problem6) |
 
 # 깃허브 사용법
 
