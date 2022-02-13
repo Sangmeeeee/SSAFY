@@ -16,6 +16,7 @@
 | [강의실 배정](https://www.acmicpc.net/problem/11000) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week1/sangmin/extra/problem10) |
 | [후위 표기식](https://www.acmicpc.net/problem/1918) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week2/sangmin/extra/problem6) |
 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week2/sangmin/extra/problem7) |
+| [제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week3/sangmin/extra/problem6) |
 
 # 깃허브 사용법
 
