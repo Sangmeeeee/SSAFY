@@ -1,63 +1,64 @@
 # Info
 
-¹®Á¦ : [Æ®¸®](https://www.acmicpc.net/problem/4803)
+ë¬¸ì œ : [íŠ¸ë¦¬](https://www.acmicpc.net/problem/4803)
 
-¾Ë°í¸®Áò Á¾·ù : DFS
+ì•Œê³ ë¦¬ì¦˜ ì¢…ë¥˜ : DFS
 
-ÂüÁ¶ url : 
-
-
-# 1. ¾Ë°í¸®Áò ¼³¸í
-
-»çÀÌÅ¬À» Ã³¸®ÇÏ´Â °ÍÀÌ ÀÌ ¹®Á¦ÀÇ Æ÷ÀÎÆ®¿´´ø °Í °°´Ù.
-
-»çÀÌÅ¬À» Ã³¸®ÇÏ±â À§ÇØ order ¹è¿­À» ¼±¾ðÇÏ°í, ÇÑ Æ®¸® ¾È¿¡¼­ **°¢ ³ëµåÀÇ ¹æ¹® ¼ø¼­¸¦ ÀúÀå**Çß´Ù.
-¶ÇÇÑ visited ¹è¿­ ´ë½Å ÆÄ¶ó¹ÌÅÍ·Î ºÎ¸ð ³ëµå(p)¸¦ ³Ñ°å´Ù.
+ì°¸ì¡° url : 
 
 
-1. ÀÔ·ÂÀ» Åä´ë·Î ¿¬°á¸®½ºÆ®¸¦ ¸¸µç´Ù.
-2. 1¹øºÎÅÍ ¸¶Áö¸· Á¤Á¡±îÁö, ÀÌ¹Ì ¹æ¹®ÇÏÁö ¾ÊÀº Á¤Á¡¸¸ ±íÀÌ ¿ì¼± Å½»öÀ» ÇÑ´Ù.
-	1. ÆÄ¶ó¹ÌÅÍ·Î ÇöÀç Å½»öÇÒ ³ëµå¿Í ºÎ¸ð ³ëµå¸¦ ³Ñ±ä´Ù.
-	2. ÇöÀç ³ëµå¿Í ¿¬°áµÈ ³ëµåµéÀ» Å½»öÇÑ´Ù.
-		1. ´ÙÀ½ Å½»öÇÒ ³ëµå°¡ ºÎ¸ð ³ëµå¿Í °°´Ù¸é continue ÇÑ´Ù.
-		2. ´ÙÀ½ Å½»öÇÒ ³ëµåÀÇ ¹æ¹® ¼ø¼­°¡ ¾ÆÁ÷ Á¤ÇØÁöÁö ¾Ê¾Ò´Ù¸é,
-			1. ÇöÀç ³ëµåÀÇ ¹æ¹® ¼ø¼­¿¡ 1À» ´õÇÑ ¼ö¸¦ ÀúÀåÇÑ´Ù.
-			2. dfs¸¦ Àç±ÍÀûÀ¸·Î È£ÃâÇÑ´Ù.
-		3. ´ÙÀ½ Å½»öÇÒ ³ëµåÀÇ ¹æ¹® ¼ø¼­°¡ Á¤ÇØÁ³´Ù¸é,
-			1. ºÎ¸ð°¡ ¾Æ´Ñµ¥µµ ÇöÀç ³ëµåÀÇ ¹æ¹® ¼ø¼­º¸´Ù ´ÙÀ½ ³ëµåÀÇ ¹æ¹® ¼ø¼­°¡ ´õ ºü¸£´Ù¸é »çÀÌÅ¬ÀÌ Á¸ÀçÇÏ´Â °ÍÀÌ¹Ç·Î `hasCycle`À» true·Î º¯°æÇÑ´Ù.
-3. `hasCycle`ÀÌ true¶ó¸é Á¤´äÀ» Ä«¿îÆ®ÇÏÁö ¾Ê°í, false¶ó¸é Á¤´äÀ» Ä«¿îÆ®ÇÑ´Ù.
+# 1. ì•Œê³ ë¦¬ì¦˜ ì„¤ëª…
+
+ì‚¬ì´í´ì„ ì²˜ë¦¬í•˜ëŠ” ê²ƒì´ ì´ ë¬¸ì œì˜ í¬ì¸íŠ¸ì˜€ë˜ ê²ƒ ê°™ë‹¤.
+
+ì‚¬ì´í´ì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•´ order ë°°ì—´ì„ ì„ ì–¸í•˜ê³ , í•œ íŠ¸ë¦¬ ì•ˆì—ì„œ **ê° ë…¸ë“œì˜ ë°©ë¬¸ ìˆœì„œë¥¼ ì €ìž¥**í–ˆë‹¤.
+ë˜í•œ `visited` ë°°ì—´ ëŒ€ì‹  íŒŒë¼ë¯¸í„°ë¡œ ë¶€ëª¨ ë…¸ë“œ `p`ë¥¼ ë„˜ê²¼ë‹¤.
 
 
-# 2. »õ·Î ¹è¿î ³»¿ë(ÄÚµå À§ÁÖ)
+1. ìž…ë ¥ì„ í† ëŒ€ë¡œ ì¸ì ‘ë¦¬ìŠ¤íŠ¸ë¥¼ ë§Œë“ ë‹¤.
+2. 1ë²ˆë¶€í„° ë§ˆì§€ë§‰ ì •ì ê¹Œì§€, ì´ë¯¸ ë°©ë¬¸í•˜ì§€ ì•Šì€ ì •ì ë§Œ ê¹Šì´ ìš°ì„  íƒìƒ‰ì„ í•œë‹¤.
+	1. íŒŒë¼ë¯¸í„°ë¡œ í˜„ìž¬ íƒìƒ‰í•  ë…¸ë“œì™€ ë¶€ëª¨ ë…¸ë“œë¥¼ ë„˜ê¸´ë‹¤.
+	2. í˜„ìž¬ ë…¸ë“œì™€ ì—°ê²°ëœ ë…¸ë“œë“¤ì„ íƒìƒ‰í•œë‹¤.
+		1. ë‹¤ìŒ íƒìƒ‰í•  ë…¸ë“œê°€ ë¶€ëª¨ ë…¸ë“œì™€ ê°™ë‹¤ë©´ continue í•œë‹¤.
+		2. ë‹¤ìŒ íƒìƒ‰í•  ë…¸ë“œì˜ ë°©ë¬¸ ìˆœì„œê°€ ì•„ì§ ì •í•´ì§€ì§€ ì•Šì•˜ë‹¤ë©´,
+			1. í˜„ìž¬ ë…¸ë“œì˜ ë°©ë¬¸ ìˆœì„œì— 1ì„ ë”í•œ ìˆ˜ë¥¼ ì €ìž¥í•œë‹¤.
+			2. dfsë¥¼ ìž¬ê·€ì ìœ¼ë¡œ í˜¸ì¶œí•œë‹¤.
+		3. ë‹¤ìŒ íƒìƒ‰í•  ë…¸ë“œì˜ ë°©ë¬¸ ìˆœì„œê°€ ì •í•´ì¡Œë‹¤ë©´,
+			1. ë¶€ëª¨ê°€ ì•„ë‹Œë°ë„ í˜„ìž¬ ë…¸ë“œì˜ ë°©ë¬¸ ìˆœì„œë³´ë‹¤ ë‹¤ìŒ ë…¸ë“œì˜ ë°©ë¬¸ ìˆœì„œê°€ ë” ë¹ ë¥´ë‹¤ë©´ ì‚¬ì´í´ì´ ì¡´ìž¬í•˜ëŠ” ê²ƒì´ë¯€ë¡œ `hasCycle`ì„ trueë¡œ ë³€ê²½í•œë‹¤.
+3. `hasCycle`ì´ trueë¼ë©´ ì •ë‹µì„ ì¹´ìš´íŠ¸í•˜ì§€ ì•Šê³ , falseë¼ë©´ ì •ë‹µì„ ì¹´ìš´íŠ¸í•œë‹¤.
 
-### »çÀÌÅ¬ Å½»ö
 
-1. ¹«¹æÇâ ±×·¡ÇÁ
+# 2. ìƒˆë¡œ ë°°ìš´ ë‚´ìš©(ì½”ë“œ ìœ„ì£¼)
 
-- ´ÙÀ½¿¡ ¹æ¹®ÇÒ Á¤Á¡ÀÌ ºÎ¸ð°¡ ¾Æ´Ñµ¥, ±× Á¤Á¡ÀÇ ¹æ¹® ¼ø¼­°¡ ÇöÀç Á¤Á¡ÀÇ ¹æ¹® ¼ø¼­º¸´Ù ºü¸£´Ù¸é »çÀÌÅ¬ÀÌ Á¸ÀçÇÏ´Â °ÍÀÌ´Ù.
-- `order` ¹è¿­¿¡ ¹æ¹® ¼ø¼­¸¦ ÀúÀåÇÏ°í, dfsÀÇ ÀÎÀÚ·Î ºÎ¸ð ³ëµå¸¦ ³Ñ°ÜÁØ´Ù.
+## ì‚¬ì´í´ íƒìƒ‰
+
+### ë¬´ë°©í–¥ ê·¸ëž˜í”„
+
+- ë‹¤ìŒì— ë°©ë¬¸í•  ì •ì ì´ ë¶€ëª¨ê°€ ì•„ë‹Œë°, ê·¸ ì •ì ì˜ ë°©ë¬¸ ìˆœì„œê°€ í˜„ìž¬ ì •ì ì˜ ë°©ë¬¸ ìˆœì„œë³´ë‹¤ ë¹ ë¥´ë‹¤ë©´ ì‚¬ì´í´ì´ ì¡´ìž¬í•˜ëŠ” ê²ƒì´ë‹¤.
+- `order` ë°°ì—´ì— ë°©ë¬¸ ìˆœì„œë¥¼ ì €ìž¥í•˜ê³ , dfsì˜ ì¸ìžë¡œ ë¶€ëª¨ ë…¸ë“œë¥¼ ë„˜ê²¨ì¤€ë‹¤.
 - ```cpp
 	void dfs(int node, int p) {
 		for (int i = 0; i < (int)adjList[node].size(); i++) {
 			int next = adjList[node][i];
-			// ºÎ¸ð¶ó¸é ¶Ù¾î³Ñ±â
+			// ë¶€ëª¨ë¼ë©´ ë›°ì–´ë„˜ê¸°
 			if (p == next) continue;
-			// ¼ø¼­°¡ Á¤ÇØÁöÁö ¾Ê¾Ò´Ù¸é, ÇöÀç ³ëµåÀÇ ¼ø¼­+1 ÀúÀå
+			// ìˆœì„œê°€ ì •í•´ì§€ì§€ ì•Šì•˜ë‹¤ë©´, í˜„ìž¬ ë…¸ë“œì˜ ìˆœì„œ+1 ì €ìž¥
 			if (order[next] == 0) {
 				order[next] = order[node] + 1;
 				dfs(next, node);
 			}
-			// ºÎ¸ð°¡ ¾Æ´Ñµ¥ ¹æ¹® ¼ø¼­°¡ ¸ÕÀú¶ó¸é »çÀÌÅ¬ O
+			// ë¶€ëª¨ê°€ ì•„ë‹Œë° ë°©ë¬¸ ìˆœì„œê°€ ë¨¼ì €ë¼ë©´ ì‚¬ì´í´ O
 			else if (order[next] < order[node])
 				hasCycle = true;
 		}
 	}
 	```
 
-2. ¹æÇâ ±×·¡ÇÁ
 
-- ´ÙÀ½¿¡ ¹æ¹®ÇÒ Á¤Á¡ÀÌ ÀÌ¹Ì ¹æ¹®ÇßÁö¸¸, Á¾·áµÇÁö ¾ÊÀº Á¤Á¡ÀÌ¶ó¸é »çÀÌÅ¬ÀÌ Á¸ÀçÇÏ´Â °ÍÀÌ´Ù.
-- `visited` ¹è¿­°ú `finihsed` ¹è¿­À» È°¿ëÇÑ´Ù.
+### ë°©í–¥ ê·¸ëž˜í”„
+
+- ë‹¤ìŒì— ë°©ë¬¸í•  ì •ì ì´ ì´ë¯¸ ë°©ë¬¸í–ˆì§€ë§Œ, ì¢…ë£Œë˜ì§€ ì•Šì€ ì •ì ì´ë¼ë©´ ì‚¬ì´í´ì´ ì¡´ìž¬í•˜ëŠ” ê²ƒì´ë‹¤.
+- `visited` ë°°ì—´ê³¼ `finihsed` ë°°ì—´ì„ í™œìš©í•œë‹¤.
 - ```cpp
 	vector<vector<int>> graph;
 	vector<bool> visited, finished;
@@ -70,13 +71,13 @@
 			int next = graph[node][i];
 			if (!visited[next])
 				dfs(next);
-			// next°¡ ÀÌ¹Ì ¹æ¹®ÇßÁö¸¸, Á¾·áµÇÁö ¾ÊÀº Á¤Á¡ÀÌ¸é »çÀÌÅ¬ O
+			// nextê°€ ì´ë¯¸ ë°©ë¬¸í–ˆì§€ë§Œ, ì¢…ë£Œë˜ì§€ ì•Šì€ ì •ì ì´ë©´ ì‚¬ì´í´ O
 			else if (!finished[next])
 				hasCycle = true;
 		}
-		// ÇØ´ç Á¤Á¡¿¡ ´ëÇÑ ±íÀÌ ¿ì¼± Å½»öÀ» ¸¶Ä¡¸é Á¾·áµÈ Á¤Á¡À¸·Î º¯°æ
+		// í•´ë‹¹ ì •ì ì— ëŒ€í•œ ê¹Šì´ ìš°ì„  íƒìƒ‰ì„ ë§ˆì¹˜ë©´ ì¢…ë£Œëœ ì •ì ìœ¼ë¡œ ë³€ê²½
 		finished[node] = true;
 	}
 	```
 
-- [Âü°í](https://m.blog.naver.com/PostView.nhn?blogId=jh20s&logNo=221248815321&proxyReferer=https:%2F%2Fwww.google.com%2F)
+[ì°¸ê³ ](https://m.blog.naver.com/PostView.nhn?blogId=jh20s&logNo=221248815321&proxyReferer=https:%2F%2Fwww.google.com%2F)
