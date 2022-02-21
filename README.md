@@ -4,6 +4,7 @@
 | 1주차 | [문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) |
 | 2주차 | 축 | 설 | 날 | [연산자 끼워넣기(3)](https://www.acmicpc.net/problem/15659) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |
 | 3주차 | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [파일 합치기(3)](https://www.acmicpc.net/problem/13975) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [문자열 잘라내기](https://www.acmicpc.net/problem/2866) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) |
+| 4주차 | [개똥벌레](https://www.acmicpc.net/problem/3020) | [트리](https://www.acmicpc.net/problem/4803) | [휴게소 세우기](https://www.acmicpc.net/problem/1477) | [ABCDE](https://www.acmicpc.net/problem/13023) | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |
 
 # 추가 문제
 
