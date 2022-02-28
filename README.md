@@ -20,6 +20,7 @@
 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week2/sangmin/extra/problem7) |
 | [제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week3/sangmin/extra/problem6) |
 | [숫자 카드 2](https://www.acmicpc.net/problem/10816) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week4/sangmin/extra/problem6) |
+| [토마토](https://www.acmicpc.net/problem/7569) | [류인석](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/inseok/extra/problem6) [신예인](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/yein/extra/problem6) [조인후](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/inu/extra/problem6) [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/sangmin/extra/problem6)
 
 # 깃허브 사용법
 
