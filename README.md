@@ -6,6 +6,8 @@
 | 3주차 | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [파일 합치기(3)](https://www.acmicpc.net/problem/13975) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [문자열 잘라내기](https://www.acmicpc.net/problem/2866) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) |
 | 4주차 | [개똥벌레](https://www.acmicpc.net/problem/3020) | [트리](https://www.acmicpc.net/problem/4803) | [휴게소 세우기](https://www.acmicpc.net/problem/1477) | [ABCDE](https://www.acmicpc.net/problem/13023) | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |
 | 5주차 | [감소하는 수](https://www.acmicpc.net/problem/1038) | [두 동전](https://www.acmicpc.net/problem/16197) | [캠프 준비](https://www.acmicpc.net/problem/16938) | [탈출](https://www.acmicpc.net/problem/3055) | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) |
+| 6주차 | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | [로봇 청소기](https://www.acmicpc.net/problem/14503) | [A와 B](https://www.acmicpc.net/problem/12904) | [저울](https://www.acmicpc.net/problem/2437) |
+
 
 # 추가 문제
 
