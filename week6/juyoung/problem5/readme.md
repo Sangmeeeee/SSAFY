@@ -40,8 +40,8 @@
 - `start=3` > `weight[2]=2` 따라서 `start=5`
 - `start=5` > `weight[3]=3` 따라서 `start=8`
 - `start=8` > `weight[4]=6` 따라서 `start=14`
-- `start=14` > weight[5]=7` 따라서 `start=21`
-- `start=21` < weight[6]=30` 따라서 break
+- `start=14` > `weight[5]=7` 따라서 `start=21`
+- `start=21` < `weight[6]=30` 따라서 break
 
 그래서 마지막으로 `start`에 저장된 21이 정답이 된다.
 
