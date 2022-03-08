@@ -1,4 +1,4 @@
-a# Info
+# Info
 
 문제 : [수들의 합 4](https://www.acmicpc.net/problem/2015)
 
