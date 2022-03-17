@@ -2,7 +2,7 @@
 
   
 
-문제 : [선수 과목]](https://www.acmicpc.net/problem/14567)
+문제 : [선수 과목](https://www.acmicpc.net/problem/14567)
 
 알고리즘 종류 : 위상정렬
 
@@ -11,7 +11,8 @@
   
 
 # 알고리즘 설명
-맨 처음에 진입 차수가 0인 노드를 찾아야 하기 때문에 inEdge배열을 둬서 선수과목 조건 A, B가 주어질 때마다 inEdge[B]++을 한다. 그리고 inEdge[i] == 0인 i만 큐에 넣고 위상정렬을 한다.  
+맨 처음에 진입 차수가 0인 노드를 찾아야 하기 때문에 inEdge배열을 둬서 선수과목 조건 A, B가 주어질 때마다 inEdge[B]++을 한다.  
+그리고 inEdge[i] == 0인 i만 큐에 넣고 위상정렬을 한다.  
 
 ```c++
 	int semester = 1;
