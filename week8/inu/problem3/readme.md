@@ -2,7 +2,7 @@
 
   
 
-문제 : [선수 과목]](https://www.acmicpc.net/problem/14567)
+문제 : [선수 과목](https://www.acmicpc.net/problem/14567)
 
 알고리즘 종류 : 위상정렬
 
