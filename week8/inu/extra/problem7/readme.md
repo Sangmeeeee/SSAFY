@@ -4,7 +4,7 @@
 
 문제 : [다이어트](https://www.acmicpc.net/problem/1484)
 
-알고리즘 종류 : 위상정렬
+알고리즘 종류 : 투포인터
 
 참조 url : 
 
