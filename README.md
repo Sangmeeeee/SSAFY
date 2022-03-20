@@ -8,7 +8,7 @@
 | 5주차 | [감소하는 수](https://www.acmicpc.net/problem/1038) | [두 동전](https://www.acmicpc.net/problem/16197) | [캠프 준비](https://www.acmicpc.net/problem/16938) | [탈출](https://www.acmicpc.net/problem/3055) | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) |
 | 6주차 | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | [로봇 청소기](https://www.acmicpc.net/problem/14503) | [A와 B](https://www.acmicpc.net/problem/12904) | [저울](https://www.acmicpc.net/problem/2437) |
 | 7주차 | [소형기관차](https://www.acmicpc.net/problem/2616) | [수들의 합 4](https://www.acmicpc.net/problem/2015) | [박스 채우기](https://www.acmicpc.net/problem/1493) | [Moo 게임](https://www.acmicpc.net/problem/5904) | [행렬 제곱](https://www.acmicpc.net/problem/10830) |
-
+| 8주차 | [수 고르기](https://www.acmicpc.net/problem/2230) | [두 용액](https://www.acmicpc.net/problem/2470) | [작업](https://www.acmicpc.net/problem/2056) | [줄 세우기](https://www.acmicpc.net/problem/2252) | [선수 과목](https://www.acmicpc.net/problem/14567) |
 
 # 추가 문제
 
@@ -23,7 +23,9 @@
 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week2/sangmin/extra/problem7) |
 | [제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week3/sangmin/extra/problem6) |
 | [숫자 카드 2](https://www.acmicpc.net/problem/10816) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week4/sangmin/extra/problem6) |
-| [토마토](https://www.acmicpc.net/problem/7569) | [류인석](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/inseok/extra/problem6) [신예인](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/yein/extra/problem6) [조인후](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/inu/extra/problem6) [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/sangmin/extra/problem6)
+| [토마토](https://www.acmicpc.net/problem/7569) | [류인석](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/inseok/extra/problem6) [신예인](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/yein/extra/problem6) [조인후](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/inu/extra/problem6) [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week5/sangmin/extra/problem6) |
+| [나머지 합](https://www.acmicpc.net/problem/10986) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week7/sangmin/extra/problem6) |
+| [별 찍기 - 10](https://www.acmicpc.net/problem/2447) | [이상민](https://github.com/Sangmeeeee/SSAFY/tree/main/week7/sangmin/extra/problem7) |
 
 # 깃허브 사용법
 
