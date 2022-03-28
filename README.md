@@ -10,6 +10,7 @@
 | 7주차 | [소형기관차](https://www.acmicpc.net/problem/2616) | [수들의 합 4](https://www.acmicpc.net/problem/2015) | [박스 채우기](https://www.acmicpc.net/problem/1493) | [Moo 게임](https://www.acmicpc.net/problem/5904) | [행렬 제곱](https://www.acmicpc.net/problem/10830) |
 | 8주차 | [수 고르기](https://www.acmicpc.net/problem/2230) | [두 용액](https://www.acmicpc.net/problem/2470) | [작업](https://www.acmicpc.net/problem/2056) | [줄 세우기](https://www.acmicpc.net/problem/2252) | [선수 과목](https://www.acmicpc.net/problem/14567) |
 | 9주차 | [전깃줄](https://www.acmicpc.net/problem/2565) | [LCS](https://www.acmicpc.net/problem/9251) | [타일 채우기3](https://www.acmicpc.net/problem/14852) | [색상환](https://www.acmicpc.net/problem/2482) | [타일 채우기](https://www.acmicpc.net/problem/2133) |
+| 10주차 | [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [주간 미팅](https://www.acmicpc.net/problem/12834) | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [최단경로](https://www.acmicpc.net/problem/1753) | [알고스팟](https://www.acmicpc.net/problem/1261) |
 
 # 추가 문제
 
@@ -21,6 +22,9 @@
 | [토마토](https://www.acmicpc.net/problem/7569) | BFS | [나머지 합](https://www.acmicpc.net/problem/10986) | 누적합 | [별 찍기 - 10](https://www.acmicpc.net/problem/2447) | 분할정복 |
 | [ACM Craft](https://www.acmicpc.net/problem/1005) | 위상정렬 | [다이어트](https://www.acmicpc.net/problem/1484) | 투포인터 | [세 용액](https://www.acmicpc.net/problem/2473) | 투포인터 |
 | [장난감 조립](https://www.acmicpc.net/problem/2637) | 위상정렬 | [부분합](https://www.acmicpc.net/problem/1806) | 투포인터 | [좋다](https://www.acmicpc.net/problem/1253) | 투포인터 |
+| [](https://www.acmicpc.net/problem/2637) | 위상정렬 | [부분합](https://www.acmicpc.net/problem/1806) | 투포인터 | [좋다](https://www.acmicpc.net/problem/1253) | 투포인터 |
+| [암호코드](https://www.acmicpc.net/problem/2011) | DP | [스티커](https://www.acmicpc.net/problem/9465) | DP | [평범한 배낭](https://www.acmicpc.net/problem/12865) | DP |
+| [구간 합 구하기 5](https://www.acmicpc.net/problem/11660) | DP | [RGB거리 2](https://www.acmicpc.net/problem/17404) | DP |  |  |
 
 # 깃허브 사용법
 
