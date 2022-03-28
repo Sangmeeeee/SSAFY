@@ -22,7 +22,6 @@
 | [토마토](https://www.acmicpc.net/problem/7569) | BFS | [나머지 합](https://www.acmicpc.net/problem/10986) | 누적합 | [별 찍기 - 10](https://www.acmicpc.net/problem/2447) | 분할정복 |
 | [ACM Craft](https://www.acmicpc.net/problem/1005) | 위상정렬 | [다이어트](https://www.acmicpc.net/problem/1484) | 투포인터 | [세 용액](https://www.acmicpc.net/problem/2473) | 투포인터 |
 | [장난감 조립](https://www.acmicpc.net/problem/2637) | 위상정렬 | [부분합](https://www.acmicpc.net/problem/1806) | 투포인터 | [좋다](https://www.acmicpc.net/problem/1253) | 투포인터 |
-| [](https://www.acmicpc.net/problem/2637) | 위상정렬 | [부분합](https://www.acmicpc.net/problem/1806) | 투포인터 | [좋다](https://www.acmicpc.net/problem/1253) | 투포인터 |
 | [암호코드](https://www.acmicpc.net/problem/2011) | DP | [스티커](https://www.acmicpc.net/problem/9465) | DP | [평범한 배낭](https://www.acmicpc.net/problem/12865) | DP |
 | [구간 합 구하기 5](https://www.acmicpc.net/problem/11660) | DP | [RGB거리 2](https://www.acmicpc.net/problem/17404) | DP |  |  |
 
