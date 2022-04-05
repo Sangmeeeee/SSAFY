@@ -23,7 +23,8 @@
 | [ACM Craft](https://www.acmicpc.net/problem/1005) | 위상정렬 | [다이어트](https://www.acmicpc.net/problem/1484) | 투포인터 | [세 용액](https://www.acmicpc.net/problem/2473) | 투포인터 |
 | [장난감 조립](https://www.acmicpc.net/problem/2637) | 위상정렬 | [부분합](https://www.acmicpc.net/problem/1806) | 투포인터 | [좋다](https://www.acmicpc.net/problem/1253) | 투포인터 |
 | [암호코드](https://www.acmicpc.net/problem/2011) | DP | [스티커](https://www.acmicpc.net/problem/9465) | DP | [평범한 배낭](https://www.acmicpc.net/problem/12865) | DP |
-| [구간 합 구하기 5](https://www.acmicpc.net/problem/11660) | DP | [RGB거리 2](https://www.acmicpc.net/problem/17404) | DP |  |  |
+| [구간 합 구하기 5](https://www.acmicpc.net/problem/11660) | DP | [RGB거리 2](https://www.acmicpc.net/problem/17404) | DP | [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413) | 다익스트라 |
+|[미확인 도착지](https://www.acmicpc.net/problem/9370) | 다익스트라 | [파티](https://www.acmicpc.net/problem/1238) | 다익스트라 | | |
 
 # 깃허브 사용법
 
