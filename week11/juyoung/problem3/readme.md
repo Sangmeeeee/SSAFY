@@ -1,4 +1,4 @@
-a# Info
+# Info
 
 문제 : [텔레포트](https://www.acmicpc.net/problem/16958)
 
