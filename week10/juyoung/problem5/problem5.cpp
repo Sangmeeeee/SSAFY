@@ -16,7 +16,7 @@ int dx[] = { 0,0,-1,1 };
 void dijkstra() {
 	priority_queue<tuple<int, int, int>> pq;
 
-	pq.push({ 0, 0, 0 }); // 벽 부순 개수, 행, 열
+	pq.push({ 0, 0, 0 });
 	dist[0][0] = 0;
 	visited[0][0] = true;
 
