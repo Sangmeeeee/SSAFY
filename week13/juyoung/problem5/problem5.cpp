@@ -14,7 +14,6 @@ vector<bool> visited;
 vector<int> dist;
 int answer = 1e9*2;
 
-
 int find(int x) {
 	if (x == root[x])
 		return x;
