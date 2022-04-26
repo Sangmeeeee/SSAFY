@@ -1,18 +1,19 @@
 # 정규 문제
-|  | 월 | 화 | 수 | 목 | 금 |
-| --- | :---: | :---: | :---: | :---: | :---: |
-| 1주차 | [문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) |
-| 2주차 | 축 | 설 | 날 | [연산자 끼워넣기(3)](https://www.acmicpc.net/problem/15659) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |
-| 3주차 | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [파일 합치기(3)](https://www.acmicpc.net/problem/13975) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [문자열 잘라내기](https://www.acmicpc.net/problem/2866) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) |
-| 4주차 | [개똥벌레](https://www.acmicpc.net/problem/3020) | [트리](https://www.acmicpc.net/problem/4803) | [휴게소 세우기](https://www.acmicpc.net/problem/1477) | [ABCDE](https://www.acmicpc.net/problem/13023) | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |
-| 5주차 | [감소하는 수](https://www.acmicpc.net/problem/1038) | [두 동전](https://www.acmicpc.net/problem/16197) | [캠프 준비](https://www.acmicpc.net/problem/16938) | [탈출](https://www.acmicpc.net/problem/3055) | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) |
-| 6주차 | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | [로봇 청소기](https://www.acmicpc.net/problem/14503) | [A와 B](https://www.acmicpc.net/problem/12904) | [저울](https://www.acmicpc.net/problem/2437) |
-| 7주차 | [소형기관차](https://www.acmicpc.net/problem/2616) | [수들의 합 4](https://www.acmicpc.net/problem/2015) | [박스 채우기](https://www.acmicpc.net/problem/1493) | [Moo 게임](https://www.acmicpc.net/problem/5904) | [행렬 제곱](https://www.acmicpc.net/problem/10830) |
-| 8주차 | [수 고르기](https://www.acmicpc.net/problem/2230) | [두 용액](https://www.acmicpc.net/problem/2470) | [작업](https://www.acmicpc.net/problem/2056) | [줄 세우기](https://www.acmicpc.net/problem/2252) | [선수 과목](https://www.acmicpc.net/problem/14567) |
-| 9주차 | [전깃줄](https://www.acmicpc.net/problem/2565) | [LCS](https://www.acmicpc.net/problem/9251) | [타일 채우기3](https://www.acmicpc.net/problem/14852) | [색상환](https://www.acmicpc.net/problem/2482) | [타일 채우기](https://www.acmicpc.net/problem/2133) |
-| 10주차 | [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [주간 미팅](https://www.acmicpc.net/problem/12834) | [최소비용 구하기](https://www.acmicpc.net/problem/11404) | [최단경로](https://www.acmicpc.net/problem/1753) | [알고스팟](https://www.acmicpc.net/problem/1261) |
-| 11주차 | [플로이드](https://programmers.co.kr/learn/courses/30/lessons/12978) | [서강그라운드](https://www.acmicpc.net/problem/14938) | [텔레포트](https://www.acmicpc.net/problem/16958) | [호석이두마리치킨](https://www.acmicpc.net/problem/21278) | [궁금한 민호](https://www.acmicpc.net/problem/1507) |
-| 12주차 | [타임머신](https://www.acmicpc.net/problem/11657) | [웜홀](https://www.acmicpc.net/problem/1865) | [한 번 남았다](https://www.acmicpc.net/problem/13317) | [골목길](https://www.acmicpc.net/problem/1738) | [오민식의 고민](https://www.acmicpc.net/problem/1219) |
+| | 알고리즘 | 월 | 화 | 수 | 목 | 금 |
+| --- | -------- | :---: | :---: | :---: | :---: | :---: |
+| 1주차 | 문자열, 정렬 | [문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) |
+| 2주차 | 스택, 큐 | 축 | 설 | 날 | [연산자 끼워넣기(3)](https://www.acmicpc.net/problem/15659) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |
+| 3주차 | 우선순위큐, map, set | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [파일 합치기(3)](https://www.acmicpc.net/problem/13975) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [문자열 잘라내기](https://www.acmicpc.net/problem/2866) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) |
+| 4주차 | 이분탐색, DFS | [개똥벌레](https://www.acmicpc.net/problem/3020) | [트리](https://www.acmicpc.net/problem/4803) | [휴게소 세우기](https://www.acmicpc.net/problem/1477) | [ABCDE](https://www.acmicpc.net/problem/13023) | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |
+| 5주차 | BFS, 백트래킹 | [감소하는 수](https://www.acmicpc.net/problem/1038) | [두 동전](https://www.acmicpc.net/problem/16197) | [캠프 준비](https://www.acmicpc.net/problem/16938) | [탈출](https://www.acmicpc.net/problem/3055) | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) |
+| 6주차 | 시뮬레이션, 그리디 | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | [톱니바퀴](https://www.acmicpc.net/problem/14891) | [로봇 청소기](https://www.acmicpc.net/problem/14503) | [A와 B](https://www.acmicpc.net/problem/12904) | [저울](https://www.acmicpc.net/problem/2437) |
+| 7주차 | 누적합, 분할정복 | [소형기관차](https://www.acmicpc.net/problem/2616) | [수들의 합 4](https://www.acmicpc.net/problem/2015) | [박스 채우기](https://www.acmicpc.net/problem/1493) | [Moo 게임](https://www.acmicpc.net/problem/5904) | [행렬 제곱](https://www.acmicpc.net/problem/10830) |
+| 8주차 | 투포인터, 위상정렬 | [수 고르기](https://www.acmicpc.net/problem/2230) | [두 용액](https://www.acmicpc.net/problem/2470) | [작업](https://www.acmicpc.net/problem/2056) | [줄 세우기](https://www.acmicpc.net/problem/2252) | [선수 과목](https://www.acmicpc.net/problem/14567) |
+| 9주차 | DP | [전깃줄](https://www.acmicpc.net/problem/2565) | [LCS](https://www.acmicpc.net/problem/9251) | [타일 채우기3](https://www.acmicpc.net/problem/14852) | [색상환](https://www.acmicpc.net/problem/2482) | [타일 채우기](https://www.acmicpc.net/problem/2133) |
+| 10주차 | 다익스트라 | [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [주간 미팅](https://www.acmicpc.net/problem/12834) | [최소비용 구하기](https://www.acmicpc.net/problem/11404) | [최단경로](https://www.acmicpc.net/problem/1753) | [알고스팟](https://www.acmicpc.net/problem/1261) |
+| 11주차 | 플로이드와샬 | [플로이드](https://programmers.co.kr/learn/courses/30/lessons/12978) | [서강그라운드](https://www.acmicpc.net/problem/14938) | [텔레포트](https://www.acmicpc.net/problem/16958) | [호석이두마리치킨](https://www.acmicpc.net/problem/21278) | [궁금한 민호](https://www.acmicpc.net/problem/1507) |
+| 12주차 | 벨만포드 | [타임머신](https://www.acmicpc.net/problem/11657) | [웜홀](https://www.acmicpc.net/problem/1865) | [한 번 남았다](https://www.acmicpc.net/problem/13317) | [골목길](https://www.acmicpc.net/problem/1738) | [오민식의 고민](https://www.acmicpc.net/problem/1219) |
+| 13주차 | 유니온파인드 | [거짓말](https://www.acmicpc.net/problem/1043) | [공항](https://www.acmicpc.net/problem/10775) | [세부](https://www.acmicpc.net/problem/13905) | [여행 가자](https://www.acmicpc.net/problem/1976) | [중량제한](https://www.acmicpc.net/problem/1939) |
 
 # 추가 문제
 
