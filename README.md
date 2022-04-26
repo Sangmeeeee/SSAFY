@@ -1,6 +1,6 @@
 # 정규 문제
-| | 알고리즘 | 월 | 화 | 수 | 목 | 금 |
-| --- | -------- | :---: | :---: | :---: | :---: | :---: |
+| 주차 | 알고리즘 | 월 | 화 | 수 | 목 | 금 |
+| ------- | --------- | :---: | :---: | :---: | :---: | :---: |
 | 1주차 | 문자열, 정렬 | [문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) |
 | 2주차 | 스택, 큐 | 축 | 설 | 날 | [연산자 끼워넣기(3)](https://www.acmicpc.net/problem/15659) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |
 | 3주차 | 우선순위큐, map, set | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [파일 합치기(3)](https://www.acmicpc.net/problem/13975) | [메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [문자열 잘라내기](https://www.acmicpc.net/problem/2866) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) |
@@ -14,6 +14,7 @@
 | 11주차 | 플로이드와샬 | [플로이드](https://programmers.co.kr/learn/courses/30/lessons/12978) | [서강그라운드](https://www.acmicpc.net/problem/14938) | [텔레포트](https://www.acmicpc.net/problem/16958) | [호석이두마리치킨](https://www.acmicpc.net/problem/21278) | [궁금한 민호](https://www.acmicpc.net/problem/1507) |
 | 12주차 | 벨만포드 | [타임머신](https://www.acmicpc.net/problem/11657) | [웜홀](https://www.acmicpc.net/problem/1865) | [한 번 남았다](https://www.acmicpc.net/problem/13317) | [골목길](https://www.acmicpc.net/problem/1738) | [오민식의 고민](https://www.acmicpc.net/problem/1219) |
 | 13주차 | 유니온파인드 | [거짓말](https://www.acmicpc.net/problem/1043) | [공항](https://www.acmicpc.net/problem/10775) | [세부](https://www.acmicpc.net/problem/13905) | [여행 가자](https://www.acmicpc.net/problem/1976) | [중량제한](https://www.acmicpc.net/problem/1939) |
+| 14주차 | 트라이 | [전화번호 목록](https://www.acmicpc.net/problem/5052) | [디스크 트리](https://www.acmicpc.net/problem/7432) | [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060) | [생태학](https://www.acmicpc.net/problem/4358) | [단어퍼즐](https://www.acmicpc.net/problem/13502) |
 
 # 추가 문제
 
