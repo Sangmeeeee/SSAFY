@@ -1,4 +1,4 @@
-문제 : [전화번호 목록](https://www.acmicpc.net/problem/7432)
+문제 : [디스크 트리](https://www.acmicpc.net/problem/7432)
 
 알고리즘 종류 : 트라이
 
