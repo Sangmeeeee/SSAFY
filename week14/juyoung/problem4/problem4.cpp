@@ -19,6 +19,8 @@ int main() {
 	// 만약 위 fixed 설정이 없으면 정수와 소수를 합쳐서 4자리를 나타낸다.
 	// 하지만 fixed 설정을 해줬으므로 소수점 아래 4자리를 나타내준다.
 	cout.precision(4);
+
+	// map을 순회하며 출력한다.
 	auto iter = m.begin();
 	while (iter != m.end()) {
 		double p = (iter->second / cnt) * 100;
