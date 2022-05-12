@@ -70,3 +70,12 @@ map 내에 존재하는 수이면 아무 처리 없이 넘어간다.
 
 
 # 2. 새로 배운 내용(코드 위주)
+[참고](https://learncom1234.tistory.com/6)
+
+### 2차원 벡터에서 1차원 벡터의 길이 기준으로 정렬하기
+```cpp
+bool cmp(vector<int> a, vector<int> b) {
+	return a.size() < b.size();
+}
+sort(v.begin(), v.end(), cmp);
+```
