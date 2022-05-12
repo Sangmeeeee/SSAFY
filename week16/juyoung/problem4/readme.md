@@ -9,7 +9,7 @@
 
 # 1. 알고리즘 설명
 
-### problem4.cpp
+### :star: problem4.cpp
 
 내가 직접 푼.. 아주 못난 풀이.. ^_ㅜ  
 
@@ -44,7 +44,7 @@ map 내에 존재하는 수이면 아무 처리 없이 넘어간다.
 그래서 다른 코드를 참고해서 다시 한번 짜본 게 `problem4_2.cpp`이다.
 
 
-### problem4_2.cpp
+### :star: problem4_2.cpp
 
 :round_pushpin:  
 **정수형 `flag` 배열을 사용하여 튜플의 구성 요소를 표시한다.**  
