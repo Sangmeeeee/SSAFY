@@ -17,6 +17,7 @@
 | 14주차 | 트라이 | [전화번호 목록](https://www.acmicpc.net/problem/5052) | [디스크 트리](https://www.acmicpc.net/problem/7432) | [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060) | [생태학](https://www.acmicpc.net/problem/4358) | [단어퍼즐](https://www.acmicpc.net/problem/13502) |
 | 15주차 | 카카오코테 | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) |
 | 16주차 | 카카오코테 | [[1차] 뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677) | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302) | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) |
+| 17주차 | 카카오코테 | [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | [[1차] 프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [[1차] 캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [[3차] 방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | [[3차] 압축](https://programmers.co.kr/learn/courses/30/lessons/17684) |
 
 # 추가 문제
 
