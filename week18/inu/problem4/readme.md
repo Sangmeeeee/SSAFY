@@ -13,7 +13,7 @@
 `record` [시각, 차량번호, 내역]을 저장하는 vector  
 `inout` <차량번호, 입차시간>을 저장하는 map  
 `time` <차량번호, 주차시간>을 저장하는 map  
-`car_number` 차량번호를 저장하는 set
+`car_number` 차량번호를 저장하는 set  
 `answer` 각 차량의 주차요금을 저장하는 vector
 
 
