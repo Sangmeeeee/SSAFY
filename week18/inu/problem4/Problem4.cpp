@@ -3,6 +3,7 @@
 #include <sstream>
 #include <algorithm>
 #include <unordered_map>
+#include <set>
 
 using namespace std;
 
@@ -39,32 +40,32 @@ vector<int> solution(vector<int> fees, vector<string> records) {
     vector<int> answer;
     unordered_map<string, string> inout;
     unordered_map<string, int> time;
-    vector<string> car_number;
+    set<string> car_number;
 
     for (string s : records) {
         vector<string> record = split(s, ' ');
 
+        // IN이면 inout에 넣기
         if (!record[2].compare("IN")) {
             inout[record[1]] = record[0];
-            if (time.count(record[1]) == 0) {
+            if (car_number.find(record[1]) == car_number.end()) {
                 time[record[1]] = 0;
-                car_number.push_back(record[1]);
+                car_number.insert(record[1]);
             }
         }
+        // OUT이면 주차시간 구하고 inout에서 삭제
         else {
             int parkingTime = getParkingTime(inout[record[1]], record[0]);
             time[record[1]] += parkingTime;
             inout.erase(record[1]);
         }
     }
-
+    // inout에 남은 차량들 주차시간 구하기
     for (auto i : inout) {
         int parkingTime = getParkingTime(i.second, "23:59");
         time[i.first] += parkingTime;
     }
-
-    sort(car_number.begin(), car_number.end());
-
+    // 차량번호순으로 주차요금 구하기
     for (string s : car_number) {
         int charge = getCharge(fees, time[s]);
         answer.push_back(charge);
