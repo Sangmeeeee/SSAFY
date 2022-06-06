@@ -20,6 +20,7 @@
 | 17주차 | 카카오코테 | [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | [[1차] 프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [[1차] 캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [[3차] 방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | [[3차] 압축](https://programmers.co.kr/learn/courses/30/lessons/17684) |
 | 18주차 | 카카오코테 | [[3차] 파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) | [[3차] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92335) | [양궁대회](https://programmers.co.kr/learn/courses/30/lessons/92342) |
 | 19주차 | 카카오코테 | [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676) | [브라이언의 고민](https://programmers.co.kr/learn/courses/30/lessons/1830) | [리틀 프렌즈 사천성](https://programmers.co.kr/learn/courses/30/lessons/1836) | [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) | [[1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678) |
+| 20주차 | 카카오코테 | [표 편집](https://programmers.co.kr/learn/courses/30/lessons/81303) | [보석 쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258) | [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064) | [GPS](https://programmers.co.kr/learn/courses/30/lessons/1837) | [경주로 건설](https://programmers.co.kr/learn/courses/30/lessons/67259) |
 
 # 추가 문제
 
